@@ -41,5 +41,5 @@ end
 def add_s(array)
   return array.each_with_index.collect |element, index| do 
     index != 1 ? element.insert(-1, "s") : element
-    
+  end
 end
