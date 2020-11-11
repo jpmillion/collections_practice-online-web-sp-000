@@ -31,7 +31,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  return array.map {|s| s.match(/\Aa/i).flatten}
+  return array.map {|s| s.match(/\Aa/i)}
 end
 
   
