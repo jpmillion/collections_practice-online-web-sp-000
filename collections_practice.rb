@@ -34,4 +34,5 @@ def find_a(array)
   return array.select {|s| s.match(/\Aa/i)}
 end
 
+def sum_array(array)
   
