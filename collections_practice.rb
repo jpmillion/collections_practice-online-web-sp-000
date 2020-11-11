@@ -39,4 +39,4 @@ def sum_array(array)
 end
 
 def add_s(array)
-  return array.each_with_index.collect {|element, index| element.insert("s", -1) if index != 1}
+  return array.each_with_index.collect {|element, index| element.insert("", -1) if index != 1}
