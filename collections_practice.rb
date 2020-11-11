@@ -40,3 +40,4 @@ end
 
 def add_s(array)
   return array.each_with_index.collect {|element, index| element.insert(-1, "s") if index != 1}
+end
