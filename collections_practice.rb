@@ -37,3 +37,6 @@ end
 def sum_array(array)
   return array.sum
 end
+
+def add_s(array)
+  
